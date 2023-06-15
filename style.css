@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 30%;
+    height: auto;
+    background-color: #f8f8f8;
+    border-radius: 0.8rem;
+    margin: 4rem auto;
+    padding: 2rem 2rem 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 1.5rem;
+}
+.labelandInput{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+}
+input{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    outline: none;
+    border: 1px solid #e3e3e3;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+}
+.button-div{
+    width: 100%;
+    height: auto;
+}
+.formButton{
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #1e1e1e;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+}
+.alert-message-div{
+    width: 100%;
+    height: auto;
+}
+.notice{
+    color: crimson;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+}
+.hidden-alert{
+    width: 30%;
+    height: auto;
+    padding: 2rem 0;
+    background-color: #d9ffe1;
+    color: darkgreen;
+    margin: 2rem auto;
+    text-align: center;
+    display: none;
+}
+.reveal-alert{
+    width: 30%;
+    height: auto;
+    padding: 2rem 0;
+    background-color: #d9ffe1;
+    color: darkgreen;
+    margin: 2rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
